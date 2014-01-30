@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  database: boilerplate_dev
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  database: boilerplate_test
+
+staging:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  database: boilerplate_staging
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  database: boilerplate_production
