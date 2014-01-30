@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-source 'http://gems.betapond.com'
 
 ruby '2.0.0'
 
