@@ -4,7 +4,7 @@ source 'http://gems.betapond.com'
 ruby '2.0.0'
 
 group :production, :staging do
-  gem 'heroku_12factor'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
