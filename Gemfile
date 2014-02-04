@@ -7,7 +7,7 @@ group :production, :staging do
 end
 
 group :development, :test do
-  gem 'debugger'
+  # gem 'debugger'
 end
 
 # Use unicorn as the app server
