@@ -17,7 +17,7 @@ gem 'unicorn'
 gem 'rails', '4.0.2'
 
 # Use postgres as the database for Active Record
-gem 'pg'
+gem 'pg', "0.16.0"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -50,3 +50,13 @@ end
 gem 'dalli'
 gem 'memcachier'
 gem 'rack-cache'
+
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem "webrat"
+  gem "factory_girl_rails", "~> 4.0"
+  gem 'capybara', '2.2.1'
+  gem 'selenium-webdriver'
+  gem "capybara-webkit"
+end
